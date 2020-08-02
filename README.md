@@ -76,6 +76,75 @@ Con más de 225,000 módulos en el repositorio de paquetes de Node, es fácil ex
 Los flujos creados en Node-RED se almacenan utilizando JSON, que se puede importar y exportar fácilmente para compartir con otros.
  
 Una biblioteca de flujo en línea le permite compartir sus mejores flujos con el mundo.
+
+### Nodos
+ 
+Node RED al ser una herramienta de programación visual nos despliega una barra donde podemos encontrar diversos tipos de nodos, los cuales podemos conectarlos para poder hacer nuestro programa, recalcando que cada nodo cumple una función en específico. Entre estos están los nodos:
+
+
+> Audio out : 
+
+Un widget que le permitirá reproducir audio (wav o mp3) o enviar texto a voz (TTS) al cliente.
+
+> Button : 
+
+El ícono se puede configurar usando los íconos Material o fa; también se puede configurar el color y el color de fondo. Si el widget tiene un tamaño de 1 ancho, el icono tiene prioridad.
+
+> Chart  : 
+
+Tiene modos de línea, barra y gráfico circular. Además, las etiquetas del eje X se pueden personalizar utilizando una cadena de formateador de fecha. Consulte este documento para obtener más información sobre los formatos de datos de gráficos aceptados.
+
+> Colour Picker : 
+
+Un widget de selector de color.
+
+> Date Picker : 
+
+Un widget de selector de fecha. El formato de fecha mostrado se puede especificar en la pestaña Sitio usando el formato moment.js.
+
+> Dropdown : 
+
+Se ha agregado un widget de selección desplegable. Etiqueta múltiple, se pueden especificar pares de valores. Las opciones también se pueden establecer a través de msg.options que contienen una matriz de objetos.
+
+> Form : 
+
+Un widget que puede estar compuesto por varios sub-widgets. Cuando se envían, todos los valores se envían como un solo mensaje.
+
+> Gauge : 
+
+Tiene 4 modos: estándar (indicador simple), donut (360 ° completo), brújula y onda. También puede especificar la gama de colores de los medidores estándar y de rosquilla.
+
+> Notification : 
+
+Crea alertas al usuario, puede ser una ventana emergente de brindis o un cuadro de alerta descartable. La alerta puede estar dirigida a un solo usuario.
+
+> Numeric : 
+
+Un widget de entrada numérico con botones arriba / abajo.
+
+> Slider : 
+
+Un control deslizante horizontal simple, con un tamaño de paso variable.
+
+> Switch : 
+
+Interruptor: también puede establecer dos iconos y / o colores según el estado.
+
+> Template : 
+
+El nodo de plantilla permite al usuario especificar y crear sus propios widgets dentro del marco utilizando HTML, Javascript. Este es un widget Angular.js. También puede usar esto para anular los estilos CSS incorporados.
+
+> Text : 
+
+Se puede configurar un widget de solo lectura, el diseño de la etiqueta y el valor.
+
+> Text input :
+
+El cuadro de ingreso de texto, con etiqueta opcional, también puede admitir modos de contraseña, correo electrónico y color.
+
+UI-Control: 
+
+Permite un control dinámico del tablero de instrumentos. Enviar un msg.payload del número de pestaña a otro, para cambiar a esa pestaña. Las pestañas se pueden habilitar, deshabilitar, ocultar, mostrar mediante mensaje.Esto se puede usar para activar otras acciones, como restablecer la visibilidad de pestañas y grupos.
  
 ### Python
  
