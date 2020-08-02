@@ -4,40 +4,49 @@
 
 ## 1.PLANTEAMIENTO DEL PROBLEMA
 
+Conocer  los diferentes nodos que nos ogrece la plataforma NODE-RED para poder implementarlos en una Interfaz Humano Máquina. Analizar los pines de la Raspberry Pi para poder usarlos en el progrma de una calculadora cientifica por medio del lenguaje de programación Python.
+
 
 
 ## 2.OBJETIVOS
 
 ### General:
 
-
+Identifircar las características de los nodos capaces de poder utilizarlos en una una interfaz HMI y las propiedades de los pines de la GPIO que nos ofrece la Raspberry Pi.
 
 ### Específicos:
 
+> Explorar las bibliotetas de notos y de funciones que nos ofrecen NODE-RED y Pyhon respectivamente.
+
+>Comprender la sintaxis y la semántica de la programación orientada a objetos de Python.
 
 
 
 ## 3.ESTADO DEL ARTE
 
-### Tema: 
+### Tema: Adquisición de datos desde plataforma IOT2040. Protocolos MODBUS/TCP y OPC UA
 
-Investigadores: 
+Investigadores: Calvo Luis, Borja.
 
-Año: 
+Año: 2019
 
-
-
-Lugar: 
-
-### Tema: 
-
-Investigadores: 
-
-Año:
+Este trabajo se basa en la adquisición de datos de un proceso automatizados desde dispositivo SIMATIC IOT2040 de SIEMENS, con diferentes protocolos industriales, mediante una plataforma de programación (Node-RED). Así, se posibilita la lectura, envió y procesamiento de datos de un proceso en un servidor remoto, facilitando la implementación de la industria 4.0 a través del Internet de las Cosas (IoT) a cualquier proceso automatizado futuro.
+ 
+Lan hau automatizazio prozesu datuen eskuratzean oinarritzen da SIMATIC IOT2040 gailuaren bidez, protokolo industrial desberdinekin, programazio plataforma baten (Node-RED) bitartez. Horrela, prozesuko datuen irakurketa, bidalketa eta prozesaketa zerbitzari urrun batean posible egiten da, 4.0 industriaren inplementazioa erraztuz Gauzen Internetaren (IoT) bidez etorkizuneko edozein automatizazio prozesutarako.
 
 
+Lugar: Universidad del País Vasco / Euskal Herriko Unibertsitatea.
 
-Lugar: 
+
+### Tema: Programación de una librería de Python capaz de leer ficheros PDB para representar proteínas en 3D.
+
+Investigadores: Cabrelles Muñoz.
+
+Año:2018
+
+Este proyecto tiene como finalidad el uso de librerías de Python para la visualización de estructuras proteicas tridimensionales mediante el procesado de archivos PDB. Para ello, se utilizaron las herramientas ofrecidas por BioPython para el procesado de datos, y las librerías matplotlib y VisPy para la visualización de los datos procesados. El resultado de este trabajo es un programa cuya interfaz gráfica fue creada mediante la librería Tkinter, que permite la selección del archivo a representar, la selección del motor que se utilizará para la visualización y qué tipo de visualización se generará (CPK, según el tipo de aminoácido al que pertenece, dividido en cadenas, y usando DSSP).
+
+Lugar: Universitat Oberta de Catalunya, España.
  
 ## 4.MARCO TEÓRICO
 
@@ -160,7 +169,9 @@ Una vez obtenido nuestras dos herramientas procedemos a implementar en Visual Co
  
 ## 11. BIBLIOGRAFÍA:
 
+> Rupil, A. C., & García Mattío, M. (2019). Node-red, conectando cosas, apis y servicios en línea.
 
+> Sánchez, M., Barrena, M., Bustos, P., Campillo, C., & García, P. (2016). Arquitectura software basada en tecnologías smart para agricultura de precisión. Jornadas de Ingeniería del Software y Bases de Datos.
  
  
 ## 12. ANEXOS
