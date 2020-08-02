@@ -51,8 +51,31 @@ Lugar: Universitat Oberta de Catalunya, España.
 ## 4.MARCO TEÓRICO
 
 
+### Node-RED
 
-### ¿Qué es Python?
+Node-RED es una herramienta de programación para conectar dispositivos de hardware, API y servicios en línea de formas nuevas e interesantes.
+
+Proporciona un editor basado en navegador que facilita la conexión de flujos utilizando la amplia gama de nodos en la paleta que se pueden implementar en su tiempo de ejecución con un solo clic.
+
+### Cracteristicas de Node-RED
+
+Node-RED proporciona un editor de flujo basado en navegador que facilita la conexión de flujos utilizando la amplia gama de nodos en la paleta. Los flujos se pueden implementar en tiempo de ejecución con un solo clic.
+
+Las funciones de JavaScript se pueden crear dentro del editor utilizando un editor de texto enriquecido.
+
+Una biblioteca incorporada le permite guardar funciones, plantillas o flujos útiles para su reutilización.
+
+El tiempo de ejecución ligero se basa en Node.js, aprovechando al máximo su modelo sin bloqueo controlado por eventos. Esto lo hace ideal para ejecutarse en el borde de la red en hardware de bajo costo, como Raspberry Pi, así como en la nube.
+
+Con más de 225,000 módulos en el repositorio de paquetes de Node, es fácil extender el rango de nodos de paleta para agregar nuevas capacidades.
+
+### Comunidad  de Node-RED
+
+Los flujos creados en Node-RED se almacenan utilizando JSON, que se puede importar y exportar fácilmente para compartir con otros.
+
+Una biblioteca de flujo en línea le permite compartir sus mejores flujos con el mundo.
+
+### Python
 
 Python fue creado a finales de los ochenta por Guido van Rossum en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba. El nombre del lenguaje proviene de la afición de un grupo británico de comediantes conocidos como Monty Python. (Python, n.d.)
 Python es un lenguaje de programación interpretado el cual hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional.
