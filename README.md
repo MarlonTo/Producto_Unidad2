@@ -333,7 +333,8 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 ## 11.RECOMENDACIONES
 
 -	Al momento de instalar Node-red se debe tener en cuenta cual librería se va a instalar, se recomienda utilizar la realizada por Red-Note debido a que las demás son realizadas por usuarios y pueden tener funciones diferentes a las esperadas para esta práctica.
--Para poder realizar un programa en esta plataforma online hay que saber primero saber lenguaje Python, luego de ya tener los conocimentos vas al siguiente nivel el cual es la programacion dirigido objetos con plus de cono cimiento en activar los pines del Raspberry y poder hacer que se pueda ingresar o sacar datos. Estos pasos a sguir nos facilitara para crear mas facil cualquier proyecto relaccionado al mismo. 
+
+- Para poder realizar un programa en esta plataforma online hay que saber primero saber lenguaje Python, luego de ya tener los conocimentos vas al siguiente nivel el cual es la programacion dirigido objetos con plus de cono cimiento en activar los pines del Raspberry y poder hacer que se pueda ingresar o sacar datos. Estos pasos a sguir nos facilitara para crear mas facil cualquier proyecto relaccionado al mismo. 
 
 
  
