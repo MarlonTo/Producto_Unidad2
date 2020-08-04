@@ -403,7 +403,7 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ![](IMG/111.png)
 
-2. En la el boton de a lupa en Windos escribiremos  "cmd" para abrir la pantalla de comandos.
+2. En el boton de a lupa en Windos escribiremos  "cmd" para abrir la pantalla de comandos.
 
 ![](IMG/444.jpeg)
 
@@ -414,10 +414,22 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ![](IMG/666.jpeg)
 
+5. Cuando se acabe de cargar la plataforma  Node-RED aparecera y podremos trabajar con ella.
+
 ![](IMG/777.jpeg)
 
+6. Para poder utilizar los nodos que nos permiitan trabajar en un dashboard necesitaremos descargar el paquete de estos nodos. Nos dirigiremos a la opcion de las tres lineas que se encuentra en la parte superior derecha.
+![](IMG/0.jpeg)
+7. Elegimos la opcion Manage Palette
+![](IMG/00.jpeg)
+8.  Escribimos “dashboard” y procedemos a instalar el primer paquete hecho por NODE-RED.
+![](IMG/000.jpeg)
+
+9. Ya instalado los nodo apareceran a la izquierda de nuestra pantalla, para poder tener un mejor manejo creremos diferentes TABS para poder trabajar de manera ordenada cada seccion de nuestra interfaz HMI.
 ![](IMG/888.jpeg)
 
-![](IMG/999.jpeg)
+10.Eligiremos los notos con los que queremos trabajar y los arrastraremos a la seccion del centro y para conectarlos bastaria con hacer clic en el recuadro blanco que esta a extremo de cada nodo.
 
-![](IMG/333.jpeg)
+![](IMG/999.jpeg)
+11. Para finalizar hacemos clic  en Deploy para que la plataforma lo copile y acontinuacion hacemos clic en icono de una fecha para arriiba el cual nos permitira visualizar nuestro proyecto
+![](IMG/11.PNG)
