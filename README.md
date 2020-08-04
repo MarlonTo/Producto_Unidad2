@@ -403,21 +403,21 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ![](IMG/111.png)
 
-![](IMG/222.png)
+![](IMG/222.jpeg)
 
-![](IMG/333.png)
+![](IMG/333.jpeg)
 
-![](IMG/444.png)
+![](IMG/444.jpeg)
 
-![](IMG/555.png)
+![](IMG/555.jpeg)
 
 
-![](IMG/666.png)
+![](IMG/666.jpeg)
 
-![](IMG/777.png)
+![](IMG/777.jpeg)
 
-![](IMG/888.png)
+![](IMG/888.jpeg)
 
-![](IMG/999.png)
+![](IMG/999.jpeg)
 
 
