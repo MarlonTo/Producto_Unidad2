@@ -259,6 +259,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 
 ## 7. APORTACIONES
+
 #### Diseño una calculadora científica en Python
 
 ![](IMG/3.PNG)
@@ -269,29 +270,65 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 
 
+
+## 8. EXPLICACION DEL CODIGO FUENTE
+
+
+#### Diseño una calculadora científica en Python
+
+Una vez realizada toda la explicación de nodos-red se procederá a realizar un ejercicio para crear un dashboard o una interfaz gráfica en la cual el usuario puede interactuar. Para empezar, se utilizará la biblioteca llamada “dashboard” por lo general está a viene instalada, pero, si es el caso de que no se posee la biblioteca se recomienda ir a la parte menú buscar la opción “manage paleta” e instalar la librería dashboard. 
+
+La práctica que se va realizar consta de la elaboración de una casa, la cual posee 5 cuartos: dos dormitorios, una cocina, una ducha y un garaje, algo característico entre todas las habitaciones (con excepción del baño) es que poseen  focos o la luz. Se estableció en 5 flow´s al igual que se crearon 5 tabs, debido a que cada una de ellas viene a representar uno de los dormitorios.
+
+Para elaboración del bombillo, se utilizó dos nodos “buttom” como entrada, estos representaran el estado del foco, es decir si va a estar encendido o apagado; se lo conectó con el nodo de salida “text” qué indica cuál es el estado del foco mostrando la elección del usuario en la interfaz.
+Cómo se mencionó anteriormente la mayoría de los cuartos constan de focos es por ello que se inició con dicho grupo no obstante cada uno de los dormitorios poseen unas cualidades las cuales serán nombradas a continuación: 
+
+En el primer dormitorio, por medio de un “slider” o deslizador y el nodo “gauge” se creó un medidor de volumen de música y por medio de una gráfica se analiza el volumen en función del tiempo y los niveles que se alcanza.
+
+En el dormitorio matrimonial, se creó e implementó una gráfica que muestra la intensidad de luz que emite el foco además, se colocó luces led las cuales pueden variar el color de los leds con el utilizó del nodo “color picker” el cual muestra el color que el usuario desee obtener, para la iluminación se empleó adicionalmente un nodo “dropdown” que permite iluminar únicamente la parte izquierda (lámpara	),derecha(foco) o ambas. 
+
+El tercer cuarto consta de la cocina, para ello se ha implementado una cocina automática la cual por medio de un nodo de “deslizador” y “buttom” permite que la cocina  encienda o se apague adicionalmente con un nodo “gauge” se nivelara el control de fuego que emite una hornilla.
+
+Para el cuarto de la ducha se utilizó, dos nodos “buttom” que van a determinar si el agua va a estar fría y caliente los cuales están conectados con un nodo “text” el cual es el indicador de la temperatura que con ayuda de un nodo “switch” abrirá o cerrara el agua y un nodo gauge conectado con in “slider” para mostrar el nivel de agua qué va a salir.
+
+En el garaje, la puerta será automática y se utilizará dos nodos “buttom” los cuales mostrarán si la puerta se abre o se cierra. Adicionalmente, se utilizará un nodo “audio out” el cual indicara la acción que realiza el “buttom” a través de un audio esto se aplicara en la segunda, tercera y quinta habitación. Finalmente para mostrar que se el usuario está generando una orden se mostrara una notificación que confirme la acción que va a realizar la interfaz para ello se utilizara un nodo llamado:”notifications” el cual va a estar conectado a cada “buttom” o “switch” aplicados.  
+
+
+#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+
+En las 5 primeras líneas ingresas las librerías para utilizar las funciones del GPIO de los pines de la Raspberry, también la librería para las funciones matemáticas math, etc. Luego inicializamos 15 pines que son desde el 8 hasta el 38 para que se ha el ingreso de las operaciones, los siguientes 3 pines que son el 3, 5 sirven para el ingresó de datos, el 7 es para salir del ingreso de datos y 21 es para seleccionar la función de ingreso de datos en decimales, y por ultimo el pin 19 es para salir del programa. Ya inicializados los pines que vamos a utilizar la clase que es llamada la Calculadora, luego creamos los atributos, que son numero1, numero2, operación y opción.
+
+Luego creamos el constructor y de creamos dos funciones para asignar valores a numero1, numero2, la siguiente función para cada operación matemática las cuales son las de una calculadora científica básica, la siguiente función sirva para leer la operación que se halla seleccionada mediante el ingreso de los pines, por lo cual utilizamos la función while e la función del if y eso cree un bucle y se pueda seguir seleccionando después y también sirve para imprimir el símbolo de cada operación, bien la función de leer número entero, que esta sirve para cuando no se halla seleccionada la opción del decimal que antes ya se había asignado el pin19, esta función se le ingresa los datos con los pines 3,5 y para salir el 7. 
+
+Luego viene la función de ingreso de un numero decimal el cual funciona pidiéndote primero el numero entero y luego la parte decimal el cual también se ingresa con los pines 3,5,7.
+
+La siguiente función es para imprimir los resultados por lo que llamamos a la función de operación que antes ya se había inicializamos anteriormente antes y la cual imprime dependiendo la operación, si es de ingreso de dos números imprime completo o sino imprime la parte del else el cual solo se debe ingresar un solo número, luego inicializamos la parte de operar el cual colocamos los pines a cada operación. Luego creamos la función menú que es para que imprima las operaciones con su pin para que pueda ingresar el usuario y al final llamamos a todos las funciones necesarias para que imprimamos el menú con while para crear un bucle hasta que el usuario quiera serrar el programa, luego creamos un if para cuando escoja si va hacer operaciones con decimal o con decimales, luego creamos una condicional para el factorial para que no se pueda ingresar decimales, luego creamos otra condición para que haga cierta operaciones puedan ingresar solo valor o ingrese los dosy al final la ante penúltima línea es para asignamos valores a los atributos de la clase, la penúltima es para que se realiza la operación relacionada y la última es para que imprima el resultado de la operación.
+
+
+
+
+## 9. CONCLUSIONES
+
+ - La página https://create.withcode.uk/ la caul puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerias y una de esas es la de libreria SYS.
+
+
  
-## 8. CONCLUSIONES
+## 10.RECOMENDACIONES
 
-> La página https://create.withcode.uk/ la caul puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerias y una de esas es la de libreria SYS.
-
-
- 
-## 9. RECOMENDACIONES
-
-
+-	Al momento de instalar Red Note se debe tener en cuenta cual librería se va a instalar, se recomienda utilizar la realizada por Red-Note debido a que las demás son realizadas por usuarios y pueden tener funciones diferentes a las esperadas para esta práctica.
 
 
  
-## 10. CRONOGRAMA
+## 11. CRONOGRAMA
 
 ![](IMG/crono.PNG)
 
  
-## 11. BIBLIOGRAFÍA:
+ ## 12.BIBLIOGRAFÍA:
 
 > Rupil, A. C., & García Mattío, M. (2019). Node-red, conectando cosas, apis y servicios en línea.
 
 > Sánchez, M., Barrena, M., Bustos, P., Campillo, C., & García, P. (2016). Arquitectura software basada en tecnologías smart para agricultura de precisión. Jornadas de Ingeniería del Software y Bases de Datos.
  
  
-## 12. ANEXOS
+## 13. ANEXOS
