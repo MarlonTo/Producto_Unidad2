@@ -248,7 +248,7 @@ El color morado (5): Comunicaci√≥n mediante el protocolo SPI (Es un protocolo s√
 
  
 ## 9. RECOMENDACIONES
-
+La plataforma online sirve para ingresar codigos con lenguaje Python e interactual con los pines del Raspberry, por lo que esta pagina es recomendable utilizar con codigos y programas sencillos.   
 
 
 
