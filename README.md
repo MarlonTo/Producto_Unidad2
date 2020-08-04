@@ -147,6 +147,8 @@ El cuadro de ingreso de texto, con etiqueta opcional, también puede admitir mod
 UI-Control: 
 
 Permite un control dinámico del tablero de instrumentos. Enviar un msg.payload del número de pestaña a otro, para cambiar a esa pestaña. Las pestañas se pueden habilitar, deshabilitar, ocultar, mostrar mediante mensaje.Esto se puede usar para activar otras acciones, como restablecer la visibilidad de pestañas y grupos.
+
+![](IMG/22.PNG)
  
 ### Python
  
@@ -218,7 +220,26 @@ El color morado (5): Comunicación mediante el protocolo SPI (Es un protocolo s�
  
  ![](IMG/esquema-pines-gpio.png)
 
+
+### Create.withcode.uk online
  
+Create.withcode.uk es un editor de python en línea que le permite escribir, ejecutar, depurar y compartir código de python en su navegador web. Se lanzó en abril de 2016 para ayudar a los estudiantes a aprender a escribir código en cualquier dispositivo sin tener que instalar ningún software especializado.
+
+Todos los recursos en este sitio se publican bajo la licencia Creative Commons de uso compartido, lo que significa que puede usar cualquier cosa aquí para cualquier propósito, siempre y cuando me haga referencia como autor original. Sin embargo, hasta ahora, aunque create.withcode.uk ha sido de uso gratuito, el código fuente que lo hace funcionar no ha estado disponible de forma abierta.
+
+Create.withcode.uk ahora es de código abierto. Esto significa que si puede pensar en una forma de mejorar el editor de Python o detecta un error que necesita reparación, no tiene que esperar a que lo codifique: puede saltar y adaptarlo / ampliarlo / mejorarlo te gusta. Puedes usarlo libremente para tus propios proyectos.
+
+#### Prestaciones
+
+> Autoevaluación de pruebas de python que se integran con moodle
+
+> Crea juegos y objetos en 3D usando python
+
+> Cuestionarios interactivos de python que se integran con moodle
+
+
+![](IMG/2.PNG)
+
  
 ## 5. LISTA DE COMPONENTES 
 
@@ -232,23 +253,31 @@ El color morado (5): Comunicación mediante el protocolo SPI (Es un protocolo s�
 
 ![](IMG/MAPAvARIABLEcALCULADORA.JPG)
 
- 
+#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+
+![](IMG/nod.PNG)
 
 
 ## 7. APORTACIONES
+#### Diseño una calculadora científica en Python
 
+![](IMG/3.PNG)
 
+#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+
+![](IMG/11.PNG)
 
 
 
  
 ## 8. CONCLUSIONES
+
 > La página https://create.withcode.uk/ la caul puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerias y una de esas es la de libreria SYS.
 
 
  
 ## 9. RECOMENDACIONES
-La plataforma online sirve para ingresar codigos con lenguaje Python e interactual con los pines del Raspberry, por lo que esta pagina es recomendable utilizar con codigos y programas sencillos.   
+
 
 
 
