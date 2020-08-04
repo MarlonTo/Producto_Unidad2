@@ -243,7 +243,7 @@ El color morado (5): Comunicación mediante el protocolo SPI (Es un protocolo s�
 
  
 ## 8. CONCLUSIONES
-
+> La página https://create.withcode.uk/ la caul puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerias y una de esas es la de libreria SYS.
 
 
  
