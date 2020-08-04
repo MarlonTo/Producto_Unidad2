@@ -255,7 +255,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 #### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
 
--Internet
+- Internet
 - NODE.JS
 - Plataforma NODE-RED
 - Computador
@@ -339,9 +339,17 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
  
  ## 13.BIBLIOGRAFÍA:
 
-> Rupil, A. C., & García Mattío, M. (2019). Node-red, conectando cosas, apis y servicios en línea.
+- Rupil, A. C., & García Mattío, M. (2019). Node-red, conectando cosas, apis y servicios en línea.
 
-> Sánchez, M., Barrena, M., Bustos, P., Campillo, C., & García, P. (2016). Arquitectura software basada en tecnologías smart para agricultura de precisión. Jornadas de Ingeniería del Software y Bases de Datos.
+- Sánchez, M., Barrena, M., Bustos, P., Campillo, C., & García, P. (2016). Arquitectura software basada en tecnologías smart para agricultura de precisión. Jornadas de Ingeniería del Software y Bases de Datos.
+
+- Oliphant, T. E. (2007). Python for scientific computing. Computing in Science & Engineering, 9(3), 10-20.
+
+- Blackstock, M., & Lea, R. (2014, October). Toward a distributed data flow platform for the web of things (distributed node-red). In Proceedings of the 5th International Workshop on Web of Things (pp. 34-39).
+
+- Lekić, M., & Gardašević, G. (2018, March). IoT sensor integration to Node-RED platform. In 2018 17th International Symposium INFOTEH-JAHORINA (INFOTEH) (pp. 1-5). IEEE.
+
+-Tabaa, M., Chouri, B., Saadaoui, S., & Alami, K. (2018). Industrial communication based on modbus and node-RED. Procedia computer science, 130, 583-588.
  
  
 ## 14. ANEXOS
