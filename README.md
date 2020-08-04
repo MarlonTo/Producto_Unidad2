@@ -240,14 +240,27 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 ![](IMG/2.PNG)
 
+## 5. DIAGRAMAS
+
+![](IMG/pi_board_pinout.jpg)
+
+## 6. LISTA DE COMPONENTES 
+
+#### Diseño una calculadora científica en Python
+
+- Interner
+- Plataforma create.withcode.uk online
+- Computador
+- Python
+
+#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+
+-Internet
+- NODE.JS
+- Plataforma NODE-RED
+- Computador
  
-## 5. LISTA DE COMPONENTES 
-
- Python 
-
-
- 
-## 6. MAPA DE VARIABLES
+## 7. MAPA DE VARIABLES
 
 #### Diseño una calculadora científica en Python
 
@@ -258,7 +271,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 ![](IMG/nod.PNG)
 
 
-## 7. APORTACIONES
+## 8. APORTACIONES
 
 #### Diseño una calculadora científica en Python
 
@@ -271,7 +284,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 
 
-## 8. EXPLICACION DEL CODIGO FUENTE
+## 9. EXPLICACION DEL CODIGO FUENTE
 
 
 #### Diseño una calculadora científica en Python
@@ -307,28 +320,34 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 
 
-## 9. CONCLUSIONES
+## 10. CONCLUSIONES
 
  - La página https://create.withcode.uk/ la caul puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerias y una de esas es la de libreria SYS.
 
 
  
-## 10.RECOMENDACIONES
+## 11.RECOMENDACIONES
 
 -	Al momento de instalar Red Note se debe tener en cuenta cual librería se va a instalar, se recomienda utilizar la realizada por Red-Note debido a que las demás son realizadas por usuarios y pueden tener funciones diferentes a las esperadas para esta práctica.
 
 
  
-## 11. CRONOGRAMA
+## 12. CRONOGRAMA
 
 ![](IMG/crono.PNG)
 
  
- ## 12.BIBLIOGRAFÍA:
+ ## 13.BIBLIOGRAFÍA:
 
 > Rupil, A. C., & García Mattío, M. (2019). Node-red, conectando cosas, apis y servicios en línea.
 
 > Sánchez, M., Barrena, M., Bustos, P., Campillo, C., & García, P. (2016). Arquitectura software basada en tecnologías smart para agricultura de precisión. Jornadas de Ingeniería del Software y Bases de Datos.
  
  
-## 13. ANEXOS
+## 14. ANEXOS
+
+![](IMG/pi_board_pinout.jpg)
+
+![](IMG/33.PNG)
+
+![](IMG/primer.PNG)
