@@ -399,18 +399,18 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 #### Implementación de una interfaz HMI en NODE-RED
 
-1. instalar Node.js en nuestra computadora el cual lo podemos encontrar en la pagina principal
+1. Instalar Node.js en nuestra computadora el cual lo podemos encontrar en la pagina principal
 
 ![](IMG/111.png)
 
-![](IMG/222.jpeg)
-
-![](IMG/333.jpeg)
+2. En la el boton de a lupa en Windos escribiremos  "cmd" para abrir la pantalla de comandos.
 
 ![](IMG/444.jpeg)
 
-![](IMG/555.jpeg)
+3. Una vez abirta escribiremos el comando "node-red" seguido de un enter.
 
+![](IMG/555.jpeg)
+4. Se nos desplegara una serie de intruciones y una de ellas sera un direccion IP la cual copiaremos y pegaremos en nuestro navegador.
 
 ![](IMG/666.jpeg)
 
@@ -420,4 +420,4 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ![](IMG/999.jpeg)
 
-
+![](IMG/333.jpeg)
