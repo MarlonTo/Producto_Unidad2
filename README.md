@@ -59,6 +59,8 @@ Node-RED es una herramienta de programación para conectar dispositivos de hardw
  
 Proporciona un editor basado en navegador que facilita la conexión de flujos utilizando la amplia gama de nodos en la paleta que se pueden implementar en su tiempo de ejecución con un solo clic.
  
+![](IMG/node.png)
+
 ### Características de Node-RED
  
 Node-RED proporciona un editor de flujo basado en navegador que facilita la conexión de flujos utilizando la amplia gama de nodos en la paleta. Los flujos se pueden implementar en tiempo de ejecución con un solo clic.
@@ -220,17 +222,15 @@ El color morado (5): Comunicación mediante el protocolo SPI (Es un protocolo s�
  
 ## 5. LISTA DE COMPONENTES 
 
-
-
-
-
-
-### Python 
+ Python 
 
 
  
 ## 6. MAPA DE VARIABLES
 
+#### Diseño una calculadora científica en Python
+
+![](IMG/MAPAvARIABLEcALCULADORA.JPG)
 
  
 
@@ -255,7 +255,7 @@ El color morado (5): Comunicación mediante el protocolo SPI (Es un protocolo s�
  
 ## 10. CRONOGRAMA
 
-
+![](IMG/crono.PNG)
 
  
 ## 11. BIBLIOGRAFÍA:
