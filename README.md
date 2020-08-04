@@ -253,7 +253,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 - Computador
 - Python
 
-#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+#### Implementación de una interfaz HMI en NODE-RED
 
 - Internet
 - NODE.JS
@@ -266,7 +266,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 ![](IMG/MAPAvARIABLEcALCULADORA.JPG)
 
-#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+#### Implementación de una interfaz HMI en NODE-RED
 
 ![](IMG/nod.PNG)
 
@@ -277,7 +277,7 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 ![](IMG/3.PNG)
 
-#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+#### Implementación de una interfaz HMI en NODE-RED
 
 ![](IMG/11.PNG)
 
@@ -285,6 +285,8 @@ Create.withcode.uk ahora es de código abierto. Esto significa que si puede pens
 
 
 ## 9. EXPLICACION DEL CODIGO FUENTE
+
+### Para ver el codigo fuente de cada proyecto, este mismo se encuentra en la carpeta de CODIGO FUENTE
 
 
 #### Diseño una calculadora científica en Python
@@ -307,7 +309,7 @@ Para el cuarto de la ducha se utilizó, dos nodos “buttom” que van a determi
 En el garaje, la puerta será automática y se utilizará dos nodos “buttom” los cuales mostrarán si la puerta se abre o se cierra. Adicionalmente, se utilizará un nodo “audio out” el cual indicara la acción que realiza el “buttom” a través de un audio esto se aplicara en la segunda, tercera y quinta habitación. Finalmente para mostrar que se el usuario está generando una orden se mostrara una notificación que confirme la acción que va a realizar la interfaz para ello se utilizara un nodo llamado:”notifications” el cual va a estar conectado a cada “buttom” o “switch” aplicados.  
 
 
-#### NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina)
+#### Implementación de una interfaz HMI en NODE-RED
 
 En las 5 primeras líneas ingresas las librerías para utilizar las funciones del GPIO de los pines de la Raspberry, también la librería para las funciones matemáticas math, etc. Luego inicializamos 15 pines que son desde el 8 hasta el 38 para que se ha el ingreso de las operaciones, los siguientes 3 pines que son el 3, 5 sirven para el ingresó de datos, el 7 es para salir del ingreso de datos y 21 es para seleccionar la función de ingreso de datos en decimales, y por ultimo el pin 19 es para salir del programa. Ya inicializados los pines que vamos a utilizar la clase que es llamada la Calculadora, luego creamos los atributos, que son numero1, numero2, operación y opción.
 
