@@ -363,3 +363,7 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 ![](IMG/33.PNG)
 
 ![](IMG/primer.PNG)
+
+
+ 
+## 15. MANUAL DE USUARIO
