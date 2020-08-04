@@ -401,7 +401,7 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 1. instalar Node.js en nuestra computadora el cual lo podemos encontrar en la pagina principal
 
-![](IMG/Opera Snapshot_2020-08-04_092955_nodejs.org.png)
+![](IMG/111.png)
 
 ![](IMG/WhatsApp Image 2020-08-04 at 9.22.41 AM.jpeg)
 
@@ -411,7 +411,6 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM (5).jpeg)
 
-![](IMG/2.PNG)
 
 ![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM (4).jpeg)
 
