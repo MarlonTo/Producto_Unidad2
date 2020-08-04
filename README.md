@@ -403,21 +403,21 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ![](IMG/111.png)
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.41 AM.jpeg)
+![](IMG/222.png)
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.41 AM (1).jpeg)
+![](IMG/333.png)
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM.jpeg)
+![](IMG/444.png)
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM (5).jpeg)
+![](IMG/555.png)
 
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM (4).jpeg)
+![](IMG/666.png)
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM (3).jpeg)
+![](IMG/777.png)
 
-![](IMGWhatsApp Image 2020-08-04 at 9.22.40 AM (2).jpeg)
+![](IMG/888.png)
 
-![](IMG/WhatsApp Image 2020-08-04 at 9.22.40 AM (1).jpeg)
+![](IMG/999.png)
 
 
