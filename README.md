@@ -367,3 +367,29 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
  
 ## 15. MANUAL DE USUARIO
+
+#### Instalación del programa de la calculadora 
+
+1.	Descargar el WinRAR el cual se encuentra en los anexos con el nombre de CalculadoraCientifica.py.
+
+![](IMG/crono.PNG)
+
+2.	Luego extraer el archivo en el lugar donde quieres que este el archivo.
+
+![](IMG/crono.PNG)
+
+3.	Luego abrir el código con Bloc de notas.
+
+![](IMG/crono.PNG)
+
+4.	Abrir el navegador que usted prefiera, pero mejor si es el navegador Chrone.
+
+![](IMG/crono.PNG)
+
+5.	Luego abrir la pagina https://create.withcode.uk/ y copiar el código de la calculadora.
+
+![](IMG/crono.PNG)
+
+6.	Luego corres el programa y ya está.
+
+![](IMG/crono.PNG)
