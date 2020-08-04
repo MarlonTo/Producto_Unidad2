@@ -1,6 +1,6 @@
 # Producto_Unidad2
 # Informe 
-##  NODE-RED que implemente una interfaz HMI (Interfaz Humano Máquina) y  el Diseño una calculadora científica en Python
+##  Implementación de una interfaz HMI en NODE-RED  y el Diseño de una calculadora científica en Python
 
 ## 1.PLANTEAMIENTO DEL PROBLEMA
 
@@ -322,13 +322,15 @@ La siguiente función es para imprimir los resultados por lo que llamamos a la f
 
 ## 10. CONCLUSIONES
 
- - La página https://create.withcode.uk/ la caul puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerias y una de esas es la de libreria SYS.
+•	La página https://create.withcode.uk/ la cual puedes crea funciones para ingresar y sacar datos, tiene muchas limitaciones de varias librerías y una de esas es la de librería SYS..
+ 
+- Los nodos que nos ofrece NODE-RED son muy diversos, para poder tener otros nodos de los que vienen por determinado, se tienen que descargar. Pero no solo podemos encontrar nodos hechos por la misma plataforma, también podemos encontrar nodos hechos por usuarios, pero a veces estoy no están del todo bien hechos.
 
 
  
 ## 11.RECOMENDACIONES
 
--	Al momento de instalar Red Note se debe tener en cuenta cual librería se va a instalar, se recomienda utilizar la realizada por Red-Note debido a que las demás son realizadas por usuarios y pueden tener funciones diferentes a las esperadas para esta práctica.
+-	Al momento de instalar Node-red se debe tener en cuenta cual librería se va a instalar, se recomienda utilizar la realizada por Red-Note debido a que las demás son realizadas por usuarios y pueden tener funciones diferentes a las esperadas para esta práctica.
 
 
  
