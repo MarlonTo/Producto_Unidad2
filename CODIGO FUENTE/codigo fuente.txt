@@ -1,0 +1,197 @@
+import RPi.GPIO as GPIO
+import time
+
+#Inicializamos los pines
+GPIO.setup(8, GPIO.IN) #pin para el gas
+GPIO.setup(10, GPIO.IN) #pin para el humo
+GPIO.setup(12, GPIO.IN) #pin para Temperatura Alta
+GPIO.setup(16, GPIO.IN) #pin para Temperatura Baja
+GPIO.setup(18, GPIO.OUT) #pin para la Alarma
+
+
+
+#Inicializamos los pines
+GPIO.setup(3, GPIO.IN) #estado de la tierra
+GPIO.setup(5, GPIO.IN) #estacon de año
+GPIO.setup(7, GPIO.IN) #estado del dia
+GPIO.setup(11, GPIO.IN) #estado de la bomba
+GPIO.setup(13, GPIO.OUT) #bomba de agua
+
+#pines del menu
+GPIO.setup(29, GPIO.IN) #Seleccion del proyecto Alarma
+GPIO.setup(31, GPIO.IN) #Seleccion del proyecto Riego
+GPIO.setup(33, GPIO.IN) #Salida del programa
+GPIO.setup(35, GPIO.IN) #Salida del proyecto
+
+
+class Alarma:
+    gas = 0
+    humo = 0
+    tempA = 0
+    tempB = 0
+    alarma = 0
+    
+    def estadoAlarma(self): #control de la alarma
+        if self.tempA == 1: #si la temperatura es mayor a 60 grados
+            alarma = 1
+            GPIO.output(18, True)
+            return
+        if (self.gas == 1 or self.humo == 1) and (self.tempB == 1 and self.tempA == 0):#Si la temperatura está entre 45ºC y 60ºC se activará                                                                                        #la alarma sólo si han detectado gases o humos (o ambos). 
+            alarma = 1
+            GPIO.output(18, True)
+            return
+        if self.tempB == 0 and self.gas == 1 and self.humo == 1: #Si la temperatura es menor de 45ºC se activará la alarma sólo si 
+                                                                #se detectan gases y humos
+            alarma = 1
+            GPIO.output(18, True)
+            return
+        GPIO.output(18, False)
+    def estadoGas(self):
+        
+        if GPIO.input(8) == GPIO.HIGH: 
+          self.gas = 1
+        else:
+          self.gas = 0
+    def estadoHumo(self):
+        if GPIO.input(10) == GPIO.HIGH: 
+          self.humo = 1
+        else:
+          self.humo = 0
+    def estadoTemAlta(self):
+ 
+        if GPIO.input(12) == GPIO.HIGH: 
+          self.tempA = 1
+        else:
+          self.tempA = 0
+    def estadoTemBaja(self):
+        
+        if GPIO.input(16) == GPIO.HIGH: 
+          self.tempB = 1
+        else:
+          self.tempB = 0
+    
+
+  
+
+
+class bomba_de_agua: #INICIALIZAR LAS VARIABLES
+    tierra = 0 #S
+    estacion = 0 #R
+    est_dia = 0 #D
+    est_bomba = 0 #V
+    bomba = 0 #
+    
+    def requsitos_bomba (self): #control de la alarma
+        if self.est_bomba == 1: #si la bomba esta vacia
+            bomba = 0
+            GPIO.output(13, True)
+            return
+        if self.estacion == 1 and self.est_dia == 0:#si es verano y es de noche
+            bomba = 1
+            GPIO.output(13, True)
+            return
+        elif self.estacion == 0 and self.est_dia == 0 or self.est_dia == 1 :#si noes verano y esta de dia es de noche
+            if self.tierra == 1:#si tierra esta seca
+              bomba=1
+              GPIO.output(13, True)
+              return
+        GPIO.output(13, False)
+        
+    def estado_tierra(self):
+      
+        if GPIO.input(3) == GPIO.HIGH: 
+          self.tierra = 1 #tierra seca
+        else:
+          self.tieera = 0 #tierra mojada
+          
+    def estacion_anio(self):
+        
+        if GPIO.input(5) == GPIO.HIGH: 
+          self.estacion = 1 #hay restriccion
+        else:
+          self.estacion = 0 #NO hay restriccion
+          
+    def estado_dia(self):
+ 
+        if GPIO.input(7) == GPIO.HIGH: 
+          self.est_dia = 1 #de dia
+        else:
+          self.est_dia = 0 #de noche
+          
+    def estado_bomba(self):
+        
+        if GPIO.input(11) == GPIO.HIGH: 
+          self.est_bomba = 1#vacio
+        else:
+          self.est_bomba = 0#lleno
+
+class Menu:
+    opcion=0
+  
+    def leerOperacion(self):
+        lectura = True
+        salida= 33
+        while lectura:
+            if GPIO.input(29) == GPIO.HIGH: #Proyecto Alarma
+                lectura = False
+                men1 = 29
+            if GPIO.input(31) == GPIO.HIGH: #Proyecto de Riego
+              lectura = False
+              men1 = 31
+            if GPIO.input(33) == GPIO.HIGH: #Salida
+              lectura = False
+              men1 =33
+        return men1
+
+    def mostrarMenu(self):
+      
+      print("pin(29)------ Proyecto Alarma")
+      print("pin(31)-------Proyecto de Riego")
+      print("pin(33)------ Salida")    
+     
+      self.opcion=self.leerOperacion()
+      return self.opcion
+    
+menu=Menu()
+#menu.mostrarMenu()
+salida = False
+
+while not salida:
+  menu.mostrarMenu()
+  if menu.opcion == 29: 
+    print("Proyecto Alarma")
+    print("pin8-GAS, pin10-HUMO, pin12-Temperautura mayor a 60°C, pin16-Temperautura mayor a 45°C, pin35-SALIR")
+    lectura = True
+    AA=Alarma()
+    while lectura:
+      AA.estadoGas()
+      AA.estadoHumo()
+      AA.estadoTemAlta()
+      AA.estadoTemBaja()
+      AA.estadoAlarma()
+      if GPIO.input(35) == GPIO.HIGH: #Salida
+        lectura = False
+      time.sleep(0.5)
+    del AA
+  else:
+    if menu.opcion == 31: 
+      print("Proyecto de Riego")
+      print("pin3-estadoTierra, pin5-estadDia, pin7-estadoBonba, pin11-estadoAgua, pin35-SALIR")
+      lectura = True
+      sol_bomba=bomba_de_agua()
+      while lectura:
+        sol_bomba.requsitos_bomba()
+        sol_bomba.estado_tierra()
+        sol_bomba.estacion_anio()
+        sol_bomba.estado_dia()
+        sol_bomba.estado_bomba()    
+
+        if GPIO.input(35) == GPIO.HIGH: #Salida
+          lectura = False
+        time.sleep(0.5)
+      del sol_bomba
+    else:
+         if menu.opcion == 33:
+            salida = True
+
+  time.sleep(0.5)
